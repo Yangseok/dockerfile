@@ -3,7 +3,7 @@
 # Based on Centos 7
 ############################################################
 
-FROM centos:latest
+FROM centos:7.2.1511
 
 MAINTAINER Yangseock Lee <ysl8607@naver.com>
 
