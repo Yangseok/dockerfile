@@ -28,7 +28,7 @@ services:
     - postgresql
     ports:
     - "10080:80"
-    - "22:22"
+    - "10022:10022"
     - "10443:443"
     volumes:
     - /srv/docker/gitlab/gitlab:/home/git/data:Z
