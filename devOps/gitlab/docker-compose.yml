@@ -149,3 +149,14 @@ services:
     - OAUTH_AZURE_API_KEY=
     - OAUTH_AZURE_API_SECRET=
     - OAUTH_AZURE_TENANT_ID=
+
+  GitlabCIMultiRunner:
+    restart: always
+    image: sameersbn/gitlab-ci-multi-runner:1.1.4-7
+    volumes:
+    - /srv/docker/gitlab-runner:/home/gitlab_ci_multi_runner/data
+    environment:
+    - CI_SERVER_URL=http://nola.ipdisk.co.kr:10080/
+    - RUNNER_TOKEN=cQ2gVDYivp8G2p_5n2D9
+    - RUNNER_DESCRIPTION=myrunner
+    - RUNNER_EXECUTOR=shell
