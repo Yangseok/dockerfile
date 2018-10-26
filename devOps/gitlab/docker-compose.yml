@@ -46,7 +46,7 @@ services:
     - REDIS_PORT=6379
 
     - TZ=Asia/Seoul
-    - GITLAB_TIMEZONE=Seoul
+    - GITLAB_TIMEZONE=Asia/Seoul
 
     - GITLAB_HTTPS=false
     - SSL_SELF_SIGNED=false
