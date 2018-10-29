@@ -152,7 +152,7 @@ services:
 
   GitlabCIMultiRunner:
     restart: always
-    image: sameersbn/gitlab-ci-multi-runner:1.1.4-7
+    image: sameersbn/gitlab-ci-multi-runner:1.1.1
     volumes:
     - /srv/docker/gitlab-runner:/home/gitlab_ci_multi_runner/data
     depends_on:
