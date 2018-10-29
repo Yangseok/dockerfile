@@ -159,6 +159,6 @@ services:
     - gitlab
     environment:
     - CI_SERVER_URL=http://nola.ipdisk.co.kr:10080/
-    - RUNNER_TOKEN=aiUJyfxZ5NsPLmzNta7n
+    - RUNNER_TOKEN=Ad9tyMWT1Z2jDs9ejcD6
     - RUNNER_DESCRIPTION=myrunner
     - RUNNER_EXECUTOR=shell
