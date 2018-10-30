@@ -13,7 +13,7 @@
     restart: always
     image: gitlab/gitlab-runner:alpine
     volumes:
-    - ./gitlab/runner:/etc/gitlab-runner:Z
+    - /srv/docker/runner:/etc/gitlab-runner:Z
     environment:
     - DOCKER_HOST=tcp://dind:2375
 
@@ -21,7 +21,7 @@
     restart: 'no'
     image: gitlab/gitlab-runner:alpine
     volumes:
-    - ./gitlab/runner:/etc/gitlab-runner:Z
+    - /srv/docker/runner:/etc/gitlab-runner:Z
     command:
     - register
     - --non-interactive
