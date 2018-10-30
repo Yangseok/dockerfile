@@ -32,4 +32,4 @@
     - --docker-volumes=/var/run/docker.sock:/var/run/docker.sock
     environment:
     - CI_SERVER_URL=http://nola.ipdisk.co.kr:10080/
-    - REGISTRATION_TOKEN=Ad9tyMWT1Z2jDs9ejcD6
+    - REGISTRATION_TOKEN=zV-KmYjy8Fs5Rp27zyWo
