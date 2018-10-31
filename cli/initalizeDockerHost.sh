@@ -17,3 +17,7 @@ sudo add-apt-repository \
 sudo apt-get update
 sudo apt-get install docker-ce
 sudo usermod -aG docker $USER
+
+sudo apt-get install zsh
+chsh -s `which zsh`
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
