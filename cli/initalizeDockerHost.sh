@@ -21,3 +21,7 @@ sudo usermod -aG docker $USER
 sudo apt-get install zsh
 chsh -s `which zsh`
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+
+sudo apt-get install rdate
+sudo rdate -s time.bora.net
+date '+%F  %r'
