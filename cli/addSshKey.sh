@@ -1,3 +1,3 @@
 #!/bin/bash
 #chmod +x addSshKey.sh
-ssh-keygen
+ssh-keygen -t rsa -C "GitLab" -b 4096
