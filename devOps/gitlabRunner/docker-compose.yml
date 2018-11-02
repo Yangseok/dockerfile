@@ -4,7 +4,7 @@
     restart: always
     privileged: true
     volumes:
-    - /var/lib/docker
+    - /srv/docker/runner/var/lib/docker:/var/lib/docker
     image: docker:17.09.0-ce-dind
     command: 
     - --storage-driver=overlay2
